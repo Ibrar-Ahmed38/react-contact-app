@@ -22,6 +22,10 @@ const contacts = [
   return (
     <div>        
             <Form />
+
+                  
+
+                
             <AddContacts AddContactHandler={AddContactHandler}/>
             <ContactList contact={contacts}/>
     </div>
