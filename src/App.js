@@ -20,7 +20,7 @@ const contacts = [
 }
   ]
   return (
-    <div>
+    <div>        
             <Form />
             <AddContacts AddContactHandler={AddContactHandler}/>
             <ContactList contact={contacts}/>
